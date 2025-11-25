@@ -4,38 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Listas</title>
 </head>
 
 <body>
-    <h1>Outras Formatações</h1>
-    <h2>Código-fonte/ Pré formatado</h2>
-    <p>o comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-num = int(input("Digite um número: "))
-if = num % 2 == 0:
-    print("{num} par")
-else:
-    print("{num} ímpar")
-print("Fim do programa")
-        </code>
-    </pre>
-    <h2>Citações</h2>
-    <p>Como diria o pai de um amigo <Q>o computador é um burro muito rápido</Q></p>
-    <h2>Citações completas</h2>
-    <p>Como disse Finn o Humano (hora de aventura)</p>
-    <blockquote cite="https://horadeaventura.fandom.com/pt-br/wiki/Finn">
-        Seila, Mil Coisas...
-    </blockquote>
-
-    <h2>Abrevições</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> E <abbr
-            title="Cascading Style Sheets">CSS</abbr> e estou adorando!</p>
-     
-    <h2>Texto Invertido</h2>
-    <p><bdo dir="rtl">Estou Aprendendo a criar coisas em html</bdo></p>        
-
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2> <!-- listas que possuem uma ordem numérica -->
+    <ol type="1">
+        <!-- tipos: 1 (números), A (letras maiúsculas), a (letras minúsculas), I (números romanos maiúsculos), i (números romanos minúsculos) -->
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Me trocar</li>
+        <li>Ir trabalhar</li>
+    </ol>
+    <h2>Listas Não Ordenadas</h2> <!-- listas que não possuem uma ordem numérica -->
+    <ul type="disc"> <!-- tipos: disc (círculo preenchido), circle (círculo vazio), square (quadrado preenchido) -->
+        <li>Comprar pão</li>
+        <li>Comprar leite</li>
+        <li>Comprar frutas</li>
+    </ul>
 
 </body>
 
